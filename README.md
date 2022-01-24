@@ -1,2 +1,2 @@
 # Linux_System_Administraton
-Linux system administration tasks
+Linux system administration
