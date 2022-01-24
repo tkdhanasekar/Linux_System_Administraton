@@ -7,21 +7,14 @@ update the system
 install the apache2 package
 # apt install apache2 -y
 
-To check the apache server status
-# systemctl status apache2
-
-To stop the apache server
-# systemctl stop apache2
-
-# systemctl status apache2
-
 To start the apache server
 # systemctl start apache2
 
-# systemctl status apache2
-
 To make apache server run persistent across reboots
 # systemctl enable apache2
+
+To check the apache server status
+# systemctl status apache2
 
 To check for ufw firewall status
 # ufw status
@@ -54,8 +47,8 @@ log files
 # tail -f /var/log/apache2/access.log
 # tail -f /var/log/apache2/error.log
 
-default port 80
-if you want to run it on https port 443
+default http port 80
+default https port 443
 
 if you want to run apache server in customised port other than 80
 for example to run apache server in port 8001 instead of 80
