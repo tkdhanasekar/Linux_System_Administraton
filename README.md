@@ -1,2 +1,2 @@
 # Linux_System_Administraton
-Linux system administration
+Linux System Administration
