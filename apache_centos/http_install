@@ -32,8 +32,6 @@ or
 reload the firewall service
 # firewall-cmd --reload
 
-in browser
-
 create our own index.html file
 # echo "<h1>Welcome to Tamil Linux Community</h1>" > /var/www/html/index.html
 
