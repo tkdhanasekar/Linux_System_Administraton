@@ -22,6 +22,8 @@ MariaDB Installation
 for default 10.3 version of mariadb installation
 # apt install mariadb-server mariadb-client -y
 
+or
+
 for mariadb 10.4 version installation follow this steps
 # sudo apt-get install software-properties-common
 # sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
