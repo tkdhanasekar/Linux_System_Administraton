@@ -62,11 +62,10 @@ $ sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-c
 $ php --version
 
 test php on browser\
-$ vim /var/www/html/info.php\
-```
-<?php 
+$ vim /var/www/html/info.php
+```<?php 
 phpinfo(); 
-?>
-```
+?>```
+
 in browser
-### http://server_ip/info.php
+#### http://server_ip/info.php
