@@ -98,7 +98,7 @@ delete the packages letsencrypt and certbot
 remove the letsencrypt directories
 # sudo rm -rf /etc/letsencrypt
 
-
+# systemctl restart apache2
 
 
 

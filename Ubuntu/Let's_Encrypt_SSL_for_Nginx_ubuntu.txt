@@ -43,8 +43,6 @@ To revoke and delete the Let's Encrypt certificate
 ---------------------------------------------------
 
 # certbot revoke --cert-path /etc/letsencrypt/live/hashlabs.in/cert.pem --key-path /etc/letsencrypt/live/hashlabs.in/privkey.pem
-# sudo apt purge letsencrypt && sudo apt purge certbot
-# rm -rf /etc/letsencrypt
 
 and open the file and comment the following parameters
 # vim /etc/nginx/sites-available/hashlabs.in
@@ -64,3 +62,20 @@ change to
     #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 :wq! save and exit
+
+restart the nginx webserver
+# systemctl restart nginx
+
+check the status nginx webserver
+# systemctl status nginx
+
+update the server
+# sudo apt update
+
+delete the packages letsencrypt and certbot
+# sudo apt purge letsencrypt && sudo apt purge certbot
+
+remove the letsencrypt directories
+# sudo rm -rf /etc/letsencrypt
+
+# systemctl restart nginx
