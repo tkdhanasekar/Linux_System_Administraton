@@ -1,5 +1,5 @@
-To install Let's Encrypt SSL certificate in apache webserver in Ubuntu20.04
----------------------------------------------------------------------------
+Let's Encrypt SSL certificate installation and revoke/delete apache webserver in Ubuntu20.04
+---------------------------------------------------------------------------------------------
 
 update the server
 # apt update -y
@@ -50,6 +50,15 @@ to view the ssl certificates
 
 run a Certbot dry run to make sure the syntax is ok
 # certbot renew --dry-run
+
+To renew the certificates
+# certbot renew
+
+Enable Automatic Certificate Renewal
+# crontab -e
+
+Add a cron job
+0 8 * * * /usr/bin/certbot renew --quiet
 
 
 To revoke and delete the Let's Encrypt certificate
