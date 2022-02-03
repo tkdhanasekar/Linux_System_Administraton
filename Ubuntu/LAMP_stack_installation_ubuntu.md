@@ -7,14 +7,14 @@ $ apt update -y
 __Apache Installation__
 
 
-$ sudo apt install apache2 apache2-utils -y
-$ systemctl start apache2
-$ systemctl enable apache2
-$ systemctl status apache2
-$ apache2 -v
+$ sudo apt install apache2 apache2-utils -y\
+$ systemctl start apache2\
+$ systemctl enable apache2\
+$ systemctl status apache2\
+$ apache2 -v\
 
 in browser 
-http://server_ip
+__http://server_ip__
 
 MariaDB Installation
 --------------------
