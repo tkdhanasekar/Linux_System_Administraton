@@ -55,17 +55,18 @@ MariaDB [(none)]> CTRL-D
 __PHP 7.4 Installation__
 
 
-install php repo
-$ sudo add-apt-repository ppa:ondrej/php
-$ sudo apt update
-$ apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline -y
+install php repo\
+$ sudo add-apt-repository ppa:ondrej/php\
+$ sudo apt update\
+$ sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline -y\
 $ php --version
 
-test php on browser
-$ vim /var/www/html/info.php
+test php on browser\
+$ vim /var/www/html/info.php\
+```
 <?php 
 phpinfo(); 
 ?>
-
+```
 in browser
-http://server_ip/info.php
+### http://server_ip/info.php
