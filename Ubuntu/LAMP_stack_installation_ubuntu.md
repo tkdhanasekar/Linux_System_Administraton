@@ -1,17 +1,17 @@
-LAMP stack installation in ubuntu 20.04
----------------------------------------
+__LAMP stack installation in ubuntu 20.04__
+
 
 update the server
-# apt update -y
+$ apt update -y
 
 __Apache Installation__
 
 
-# apt install apache2 apache2-utils -y
-# systemctl start apache2
-# systemctl enable apache2
-# systemctl status apache2
-# apache2 -v
+$ sudo apt install apache2 apache2-utils -y
+$ systemctl start apache2
+$ systemctl enable apache2
+$ systemctl status apache2
+$ apache2 -v
 
 in browser 
 http://server_ip
