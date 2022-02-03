@@ -63,9 +63,11 @@ $ php --version
 
 test php on browser\
 $ vim /var/www/html/info.php
-```<?php 
+```
+<?php 
 phpinfo(); 
-?>```
+?>
+```
 
 in browser
 #### http://server_ip/info.php
