@@ -1,4 +1,4 @@
 # Linux_System_Administraton
-*Linux System Administration*\n
-__centos__\n
+*Linux System Administration*\
+__centos__\
 __ubuntu__
