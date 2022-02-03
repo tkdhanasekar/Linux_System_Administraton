@@ -24,6 +24,9 @@ Test nginx
 in browser http://server_ip
 default page of nginx displayed
 
+map this ip address to domain name in dns management of domain name provider
+( in my case i purchase domainname hashlabs.in from godaddy )
+
 Configure a Server Block
 # mkdir -p /var/www/hashlabs.in/html
 
@@ -90,6 +93,9 @@ Listen 80
 to
 Listen 8001
 :wq! save and exit
+
+in browser 
+http://hashlabs.in:8001
 
 
  
