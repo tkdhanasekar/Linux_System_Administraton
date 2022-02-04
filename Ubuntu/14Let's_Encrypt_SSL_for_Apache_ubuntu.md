@@ -39,9 +39,9 @@ obtain and install a certificate for apache
 ```
 #sudo certbot --apache
 
-it will ask for give the credentials
+it will ask for the details
 
-Enter email address: tkdana@gmail.com
+Enter email address: tkdhanasekar@gmail.com
 Terms of Service: A
 willing to share your email: N
 Enter domain name : www.hashlabs.in   ( in my case its www.hashlabs.in )
