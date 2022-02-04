@@ -34,6 +34,7 @@ http://server_ip\
 default page of nginx displayed
 
 map this ip address to domain name in dns management of domain name provider
+\
 ( in my case i purchase domainname hashlabs.in from godaddy )
 
 Configure a Server Block
