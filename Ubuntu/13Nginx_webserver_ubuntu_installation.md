@@ -30,7 +30,9 @@ check the ip address
 xx.xx.xx.xx
 ```
 Test nginx
-in browser http://server_ip
+in browser 
+\
+http://server_ip
 default page of nginx displayed
 
 map this ip address to domain name in dns management of domain name provider
@@ -83,7 +85,7 @@ Test the Configuration for any syntax issue
 ```
 in browser
 \
-*http://hashlabs.in*
+http://hashlabs.in
 
 
 Location of the main Nginx application files.
@@ -118,5 +120,6 @@ to
 Listen 8001
 :wq! save and exit
 ```
-in browser\ 
-*http://hashlabs.in:8001*
+in browser
+\
+http://hashlabs.in:8001
