@@ -1,4 +1,4 @@
-# Installing apache2 in Ubuntu 20.04
+### Installing apache2 in Ubuntu 20.04
 
 update the system
 ```
@@ -94,7 +94,7 @@ restart the apache server
 ```
 # systemctl restart apache2
 ```
-in browser check with
+in browser check with\
 http://server_ip:8001
 
 
