@@ -1,11 +1,9 @@
 __LAMP stack installation in ubuntu 20.04__
 
-
 update the server\
 $ sudo apt update -y
 
 __Apache Installation__
-
 
 $ sudo apt install apache2 apache2-utils -y\
 $ sudo systemctl start apache2\
@@ -13,13 +11,12 @@ $ sudo systemctl enable apache2\
 $ sudo systemctl status apache2\
 $ apache2 -v
 
-in browser\ 
-__http://server_ip__
+in browser
+*http://server_ip*
 
 __MariaDB Installation__
 
-
-for default 10.3 version of mariadb installation
+for default 10.3 version of mariadb installation\
 $ sudo apt install mariadb-server mariadb-client -y
 
 or
