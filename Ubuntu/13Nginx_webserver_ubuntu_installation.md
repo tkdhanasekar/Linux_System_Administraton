@@ -81,7 +81,8 @@ Test the Configuration for any syntax issue
 ```
 # nginx -t
 ```
-in browser\ http://hashlabs.in
+in browser\ 
+*http://hashlabs.in*
 
 
 Location of the main Nginx application files.
