@@ -15,7 +15,7 @@ $ apache2 -v
 in browser\
 *http://server_ip*
 
-__MariaDB Installation__
+:red_circle: __MariaDB Installation__
 
 for default 10.3 version of mariadb installation
 ```
@@ -49,7 +49,7 @@ Reload privilege tables now? [Y/n] y
 $ sudo mariadb -u root -p
 MariaDB [(none)]> CTRL-D
 ```
-__PHP 7.4 Installation__
+:red_circle:  __PHP 7.4 Installation__
 
 install php repo
 ```
