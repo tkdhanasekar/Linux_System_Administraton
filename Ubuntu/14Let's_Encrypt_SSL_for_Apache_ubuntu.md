@@ -73,7 +73,7 @@ Add a cron job
 ```
 
 :red_square: __To revoke and delete the Let's Encrypt certificate__
-``
+```
 # certbot revoke --cert-path /etc/letsencrypt/live/www.hashlabs.in/cert.pem --key-path /etc/letsencrypt/live/www.hashlabs.in/privkey.pem
 ```
 replace www.hashlabs.in with your domain name
