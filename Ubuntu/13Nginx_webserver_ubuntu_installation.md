@@ -29,8 +29,7 @@ check the ip address
 # hostname -I
 xx.xx.xx.xx
 ```
-Test nginx in browser 
-\
+Test nginx in browser\
 http://server_ip
 default page of nginx displayed
 
