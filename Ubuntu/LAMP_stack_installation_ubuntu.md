@@ -71,3 +71,5 @@ in browser
 /server_ip/info.php
 
 it works! :smiling_face_with_three_hearts:
+
+:1:
