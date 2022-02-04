@@ -104,6 +104,9 @@ remove the letsencrypt directories
 ```
 # sudo rm -rf /etc/letsencrypt
 ```
+restart the nginx webserver
+```
+# systemctl restart nginx
+```
 check in browser
 done! :smile:
-# systemctl restart nginx
