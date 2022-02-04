@@ -1,5 +1,5 @@
 Installing httpd in centos 7
-----------------------------
+---
 
 update the server
 # yum update -y
