@@ -81,7 +81,8 @@ Test the Configuration for any syntax issue
 ```
 # nginx -t
 ```
-in browser\ 
+in browser
+\
 *http://hashlabs.in*
 
 
