@@ -106,7 +106,7 @@ error logs
 ```
 /var/log/ngins/error.log
 ```
-To run nginx webserver in customized port 8001 from port 80
+:red_square: To run nginx webserver in customized port 8001 from port 80
 open the nginx server block config 
 ```
 # vim /etc/nginx/sites-available/hashlabs.in
