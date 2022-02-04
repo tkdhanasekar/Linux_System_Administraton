@@ -48,8 +48,7 @@ Enter domain name : www.hashlabs.in   ( in my case its www.hashlabs.in )
 Select the appropriate number [1-2]: 2 
 it will ask options select redirect all traffic to HTTPS give option 2
 ```
-check the domain name for ssl certificate in browser
-in browser give
+check the ssl certificate report in browser
 https://ssllabs.com/ssltest/analyze.html?d=www.your_domain_name.com
 
 to view the ssl certificates
