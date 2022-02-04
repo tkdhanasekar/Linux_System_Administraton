@@ -78,7 +78,7 @@ Listen 8001
 :wq! save and exit
 ```
 
-When you change port number in Apache on Ubuntu/Debian systems, we\ need to also change port number in virtual host configuration file
+When you change port number in Apache on Ubuntu/Debian systems\ we need to also change port number in virtual host configuration file
 open the file
 ```
 # vim /etc/apache2/sites-enabled/000-default.conf
