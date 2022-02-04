@@ -47,6 +47,7 @@ restart the apache httpd webserver
 ```
 
 check in browser
+\
 http://server-name or ip
 
 configuration file
