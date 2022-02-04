@@ -15,6 +15,7 @@ in browser\
 *http://server_ip*
 
 __MariaDB Installation__
+
 for default 10.3 version of mariadb installation\
 $ sudo apt install mariadb-server mariadb-client -y
 
