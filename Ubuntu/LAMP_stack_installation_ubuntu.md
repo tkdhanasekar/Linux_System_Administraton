@@ -4,7 +4,7 @@ update the server
 ```
 $ sudo apt update -y
 ```
-__Apache Installation__
+:red_circle:  __Apache Installation__
 ```
 $ sudo apt install apache2 apache2-utils -y
 $ sudo systemctl start apache2
