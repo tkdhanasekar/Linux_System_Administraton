@@ -4,7 +4,7 @@ update the server
 ```
 $ sudo apt update -y
 ```
-:red_circle:  __Apache Installation__
+:red_square:  __Apache Installation__
 ```
 $ sudo apt install apache2 apache2-utils -y
 $ sudo systemctl start apache2
@@ -15,7 +15,7 @@ $ apache2 -v
 in browser\
 *http://server_ip*
 
-:red_circle: __MariaDB Installation__
+:red_square:  __MariaDB Installation__
 
 for default 10.3 version of mariadb installation
 ```
@@ -49,7 +49,7 @@ Reload privilege tables now? [Y/n] y
 $ sudo mariadb -u root -p
 MariaDB [(none)]> CTRL-D
 ```
-:red_circle:  __PHP 7.4 Installation__
+:red_square:  __PHP 7.4 Installation__
 
 install php repo
 ```
@@ -70,4 +70,4 @@ in browser
 #### http:/
 /server_ip/info.php
 
-it works! :smiling_face_with_three_hearts:
+it works!  :smile:
