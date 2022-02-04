@@ -30,7 +30,7 @@ check the ip address
 xx.xx.xx.xx
 ```
 Test nginx in browser\
-http://server_ip
+http://server_ip\
 default page of nginx displayed
 
 map this ip address to domain name in dns management of domain name provider
