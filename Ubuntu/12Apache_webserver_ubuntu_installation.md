@@ -1,4 +1,4 @@
-### Installing apache2 in Ubuntu 20.04
+:red_square: ### Installing apache2 webserver in Ubuntu 20.04
 
 update the system
 ```
@@ -63,7 +63,7 @@ log files location
 ```
 
 
-### To run Apache webserver in customized port:
+:red_square: ### To run Apache webserver in customized port:
 default http port is 80
 default https port is 443
 
