@@ -63,7 +63,7 @@ log files location
 ```
 
 
-:red_square: __To run Apache webserver in customized port:__
+:red_square: __To run Apache webserver in customized port:__\
 default http port is 80
 default https port is 443
 
