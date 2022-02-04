@@ -35,15 +35,14 @@ You already have your root account protected, so you can safely answer 'n'.
 
 Switch to unix_socket authentication [Y/n] n\
 Change the root password? [Y/n] y\
-New password:\ 
+New password:\
 Re-enter new password:\
 Remove anonymous users? [Y/n] y\
 Disallow root login remotely? [Y/n] y\
 Remove test database and access to it? [Y/n] y\
-Reload privilege tables now? [Y/n] y\
+Reload privilege tables now? [Y/n] y
 
-$ sudo mariadb -u root -p\
-
+$ sudo mariadb -u root -p
 MariaDB [(none)]> CTRL-D
 
 __PHP 7.4 Installation__
