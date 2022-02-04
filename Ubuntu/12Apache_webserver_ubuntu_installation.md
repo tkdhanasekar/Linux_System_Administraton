@@ -67,7 +67,7 @@ log files location
 default http port is 80
 default https port is 443
 
-if you want to run apache server in customised port other than 80
+if you want to run apache server in customised port other than 80\
 for example to run apache server in port 8001 instead of 80
 open the file
 ```
@@ -78,7 +78,7 @@ Listen 8001
 :wq! save and exit
 ```
 
-When you change port number in Apache on Ubuntu/Debian systems, 
+When you change port number in Apache on Ubuntu/Debian systems,\ 
 we need to also change port number in virtual host configuration file
 open the file
 ```
