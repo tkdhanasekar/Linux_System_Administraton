@@ -1,4 +1,4 @@
-__LAMP stack installation in ubuntu 20.04__
+:blue_square:  __LAMP stack installation in ubuntu 20.04__
 
 update the server
 ```
