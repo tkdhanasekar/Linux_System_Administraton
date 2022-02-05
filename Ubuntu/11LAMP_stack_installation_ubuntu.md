@@ -67,7 +67,6 @@ phpinfo();
 ?>
 ```
 in browser
-#### http:/
-/server_ip/info.php
-
+http://server_ip/info.php
+\
 it works!  :smile:
