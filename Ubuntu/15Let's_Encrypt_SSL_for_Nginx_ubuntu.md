@@ -52,10 +52,6 @@ Create an index.html File for the Server Block
 <h1> welcome to Tamil Linux Community </h1>
 :wq! save and exit
 ```
-install Certbot and its Nginx plugin 
-```
-# sudo apt install certbot python3-certbot-nginx
-```
 open the Nginx configuration file ,
 locate the server_name directive and make sure it is set to your domain name
 ```
@@ -91,6 +87,10 @@ in browser
 \
 http://hashlabs.in
 \
+install Certbot and its Nginx plugin 
+```
+# sudo apt install certbot python3-certbot-nginx
+```
 Obtain the SSL/TLS Certificate
 ```
 # sudo certbot --nginx -d hashlabs.in -d www.hashlabs.in
