@@ -20,6 +20,15 @@ check the status of apache webserver
 ```
 # systemctl status apache2
 ```
+create index.html
+```
+# cd /var/www/html
+```
+```
+# vim index.html
+<h1> Welcome to FOSS World </h1>
+:wq! save and exit
+```
 check the host ip address
 ```
 # hostname -I
@@ -31,6 +40,10 @@ restart the apache webserver
 ```
 # systemctl restart apache2
 ```
+in browser i check my domain 
+\
+http://hashlabs.in 
+       
 install the required packages for let'sencrypt SSL
 ```
 # sudo apt install certbot python3-certbot-apache
