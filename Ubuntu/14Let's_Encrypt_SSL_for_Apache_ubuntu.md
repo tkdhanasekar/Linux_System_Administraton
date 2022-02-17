@@ -82,7 +82,7 @@ Enable Automatic Certificate Renewal
 # crontab -e
 
 Add a cron job
-certbot renew --deploy-hook "systemctl restart apache2"
+* 6 * * * certbot renew --deploy-hook "systemctl restart apache2"
 ```
 
 :red_square: __To revoke and delete the Let's Encrypt certificate__
