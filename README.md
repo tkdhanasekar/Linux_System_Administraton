@@ -42,12 +42,8 @@
 - Basic Mail services
 - System Monitoring and Performance reporting tools
 - Virtual Machines KVM / Vagrant
-- MariaDB installation, configure CRUD
-  master master
-  master slave
-- PostgreSQL installation, configure CRUD
-  master master
-  master slave
+- MariaDB installation/configure/CRUD/master-master/master-slave
+- PostgreSQL installation/configure/CRUD/master-master/master-slave
 - remote access DB
 - backup and restore DB
 - troubleshooting
